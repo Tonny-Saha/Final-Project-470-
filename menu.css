@@ -1,0 +1,59 @@
+body{
+    background-image: url(img/back3c.jpg);
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {background-image: url(img/back3d.jpg);}
+    25%  {background-image: url(img/back3c.jpg);}
+    50%  {background-image: url(img/back3d.jpg);}
+    100% {background-image: url(img/back3c.jpg);}
+  }
+
+  .nav{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      grid-row: inherit;
+      position: absolute;
+      right:4em;
+      top: 1em;
+  }
+  li{
+    display: inline;
+    margin: 1em;
+  
+    /* position: relative;
+ 
+    right: 30em;
+   top: 10%; */
+  }
+  li:hover{
+    background-color: rgba(90, 80, 111,.5);
+  }
+ 
+  .start{
+  display: grid;
+  grid-template-columns: 10em 10em 10em;
+ }
+  .menu{
+    position:absolute;
+    top: 9%;
+    left: 2%;
+    padding:2em;
+    /* float: left;
+    width: 50%; */
+  }
+  .menu-2{
+    display: grid;
+    grid-template-columns: 10em 10em 10em;
+    position:absolute;
+    top: 25%;
+    right: 2%;
+    padding:2em;
+    /* float: right;
+    width: 30%; */
+  }
+  

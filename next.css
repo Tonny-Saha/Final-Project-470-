@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/back2.jpg);
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {background-image: url(img/back1.jpg);}
+    25%  {background-image: url(img/back2.jpg);}
+    50%  {background-image: url(img/back1.jpg);}
+    100% {background-image: url(img/back2.jpg);}
+  }
+.main{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2em 0;
+    text-align: center;
+
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    border: 5px inset #fff;
+    color: white;
+    width: 30%;
+    position:absolute;
+    top: 25%;
+    left: 35%;
+
+
+
+}
+
+
+.b-1{
+    height: 3em;
+    width: 15em;
+    border: none;
+    border-radius: .2em;
+    background-color: rgb(255, 255, 255);
+    margin: 1em;
+    cursor: pointer;
+    color: #000000;
+
+}

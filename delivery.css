@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: #ffffff;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {background-color:#e9faff;}
+    25%  {background-color: #ffffff;}
+    50%  {background-color:#e9faff;}
+    100% {background-color: #ffffff;}
+  }
+  .nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    grid-row: inherit;
+    position: absolute;
+    top:1.5em;
+    right: 5em;
+
+}
+  li{
+    display: inline;
+    margin: 1em;
+  }
+.head{
+    display: inline;
+    background-color:rgb(77, 0, 140);
+    border-radius: 1.2em;
+   width: 12em;
+   height: 4em;
+   position: absolute;
+   top: 2%;
+   transition: width 4s;
+}
+
+span:hover{
+    width: 300px;
+}
+.sub-p{
+    background-color: rgba(65, 3, 136, 0.7);
+    /* padding-top: 3em ; */
+   width: 100em;
+   height: 3em;
+   position: absolute;
+   top: 15%;;
+}
+
+.name{
+   text-align: center;
+   padding-top: 15em;
+   /* width: 70%; */
+}
+form{
+    width: 70%;
+    cursor: pointer;
+    /* background-color: black; */
+}
+button,.submit{
+ display: block;
+}

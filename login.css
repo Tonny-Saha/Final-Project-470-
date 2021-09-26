@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(img/back1.jpg);
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {background-image: url(img/back4.jpg);}
+    25%  {background-image: url(img/back5.jpg);}
+    50%  {background-image: url(img/back4.jpg);}
+    100% {background-image: url(img/back5.jpg);}
+  }
+
+.main{
+    text-align: center;
+    padding: 2em 0;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(2, 0, 0, 0.2);
+
+    border: 5px inset #fff;
+    color: white;
+    width: 30%;
+    position:absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.form input[type ="text"]{
+    width: 15em;
+    height: 1.8em;
+    border: none;
+    border-radius: .3em;
+}
+.form input[type ="password"]{
+    width: 15em;
+    height: 1.8em;
+    border: none;
+    border-radius: .3em;
+}
+.form input[type="submit"] {
+    width: 10em;
+    height: 1.8em;
+    border: none;
+    background-color: lightsteelblue;
+    cursor: pointer;
+    border-radius: .3em;
+}
+    
+
